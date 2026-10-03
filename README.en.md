@@ -5,16 +5,16 @@
 DSH Web input history plugin: recall and cycle through already-sent messages with **Ctrl+Up / Ctrl+Down**, just like a terminal — with zero core changes.
 
 > **Pick the plugin version that matches your DSH** (a mismatch crashes: common symptom `useConversation is not a function`)
-> - DSH **0.1.1-rc.2** (npm latest): install the **old** version `'@dsh-external/dsh-input-history@github:lhh010/dsh-input-history#v0.1.2'`
+> - DSH **0.1.1-rc.2** (npm latest): install the **old** version `'@dsh-external/dsh-input-history@github:omdsh-dev/dsh-input-history#v0.1.2'`
 > - DSH **0.1.2-alpha.1 / alpha.2 / alpha.3 / alpha.4 / alpha.5 / rc.1**: install the **new** version (the default command below)
 ## Installation (profile mode)
 
 ```sh
-# Option 1: pinned-tag git dependency (public mirror, recommended; github:lhh010/dsh-input-history also works)
-dsh plugin --profile web add '@dsh-external/dsh-input-history@github:lhh010/dsh-input-history#v0.1.9'
+# Option 1: pinned-tag git dependency (public mirror, recommended; github:omdsh-dev/dsh-input-history also works)
+dsh plugin --profile web add '@dsh-external/dsh-input-history@github:omdsh-dev/dsh-input-history#v0.1.9'
 
 # Option 2: local link (development)
-git clone https://github.com/lhh010/dsh-input-history.git
+git clone https://github.com/omdsh-dev/dsh-input-history.git
 cd dsh-input-history && pnpm install && pnpm run build
 dsh plugin --profile web add link:/path/to/dsh-input-history
 ```
@@ -34,11 +34,11 @@ Config line (`$DSH_HOME/profiles/web/cordis.patch.yml`, hot-reloaded, no restart
 Paste this prompt into any DSH session and the agent installs it for you:
 
 > Install the dsh-input-history plugin (DSH input-history recall plugin (terminal-style Ctrl+Up/Ctrl+Down)):
-> 1. Run `dsh plugin --profile web add '@dsh-external/dsh-input-history@github:lhh010/dsh-input-history#v0.1.9'` (the first run may fail because pnpm 11 blocks node-pty build scripts)
+> 1. Run `dsh plugin --profile web add '@dsh-external/dsh-input-history@github:omdsh-dev/dsh-input-history#v0.1.9'` (the first run may fail because pnpm 11 blocks node-pty build scripts)
 > 2. Under `~/.dsh/profiles/web`, run `pnpm approve-builds --all` (approve the build scripts)
 > 3. Re-run the install command from step 1
 > 4. Remind me to hard-refresh the browser (Ctrl/Cmd+Shift+R)
-> On errors, first check the FAQ/known limitations in the README at <https://github.com/lhh010/dsh-input-history>.
+> On errors, first check the FAQ/known limitations in the README at <https://github.com/omdsh-dev/dsh-input-history>.
 
 
 , all 18 unit tests, and the build are green).
@@ -89,11 +89,11 @@ Paste this prompt into any DSH session and the agent installs it for you:
 ## Installation (profile mode)
 
 ```sh
-# Option 1: pinned-tag git dependency (public mirror, recommended; github:lhh010/dsh-input-history also works)
-dsh plugin --profile web add '@dsh-external/dsh-input-history@github:lhh010/dsh-input-history#v0.1.9'
+# Option 1: pinned-tag git dependency (public mirror, recommended; github:omdsh-dev/dsh-input-history also works)
+dsh plugin --profile web add '@dsh-external/dsh-input-history@github:omdsh-dev/dsh-input-history#v0.1.9'
 
 # Option 2: local link (development)
-git clone https://github.com/lhh010/dsh-input-history.git
+git clone https://github.com/omdsh-dev/dsh-input-history.git
 cd dsh-input-history && pnpm install && pnpm run build
 dsh plugin --profile web add link:/path/to/dsh-input-history
 ```
@@ -113,11 +113,11 @@ Config line (`$DSH_HOME/profiles/web/cordis.patch.yml`, hot-reloaded, no restart
 Paste this prompt into any DSH session and the agent installs it for you:
 
 > Install the dsh-input-history plugin (DSH input-history recall plugin (terminal-style Ctrl+Up/Ctrl+Down)):
-> 1. Run `dsh plugin --profile web add '@dsh-external/dsh-input-history@github:lhh010/dsh-input-history#v0.1.9'` (the first run may fail because pnpm 11 blocks node-pty build scripts)
+> 1. Run `dsh plugin --profile web add '@dsh-external/dsh-input-history@github:omdsh-dev/dsh-input-history#v0.1.9'` (the first run may fail because pnpm 11 blocks node-pty build scripts)
 > 2. Under `~/.dsh/profiles/web`, run `pnpm approve-builds --all` (approve the build scripts)
 > 3. Re-run the install command from step 1
 > 4. Remind me to hard-refresh the browser (Ctrl/Cmd+Shift+R)
-> On errors, first check the FAQ/known limitations in the README at <https://github.com/lhh010/dsh-input-history>.
+> On errors, first check the FAQ/known limitations in the README at <https://github.com/omdsh-dev/dsh-input-history>.
 
 ## Build
 
