@@ -29,7 +29,8 @@
     "src",
     "LICENSE",
     "README.md",
-    "cordis.patch.yml"
+    "cordis.patch.yml",
+    "locale"
   ],
   "scripts": {
     "build": "tsdown",

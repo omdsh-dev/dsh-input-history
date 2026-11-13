@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "输入历史 (dsh-input-history)",
+    "description": "Ctrl+Up / Ctrl+Down 像终端一样召回与切换已发送消息。"
+  }
+}

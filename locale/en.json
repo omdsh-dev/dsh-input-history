@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Input History (dsh-input-history)",
+    "description": "Recall and cycle sent messages with Ctrl+Up / Ctrl+Down, terminal-style."
+  }
+}
